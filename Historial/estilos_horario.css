@@ -1,0 +1,237 @@
+@charset "utf-8";
+*{
+	margin:0 auto;
+	
+	}
+
+@font-face{
+    font-family:century_gothic;
+    font-style:normal;
+    font-weight:normal;
+    src:url(tipografias/century_gothic.ttf);    
+}
+
+body{
+	background-image:url(imagenes/banner_historial.gif);
+	background-repeat:no-repeat;
+     background-position: 50% 0%; 
+	}
+	
+	
+#contenido{
+    width: 900px;
+    height: 640px;
+    /*margin-top: 661px;*/
+    /*margin-left: 42px;*/
+    padding-top: 232px;
+    margin: 0 auto;
+     
+ }
+	
+	
+	
+#botones ul li{
+		
+    list-style: none;
+    width: 366px;
+    float: left;
+    margin-right: 19px;
+    margin-top: 2px;
+    margin-left: 6px;
+    display:block;
+   
+		}
+
+
+#botones ul li a img{
+			
+    float: left;
+    margin-top: 3px;
+    vertical-align: middle;
+
+		}
+
+
+#botones p{
+		float:left;	
+        font-family:century_gothic; 
+        font-size:36px;
+        font-weight: bold;
+        text-align:center;
+        color:#878787;
+        display: inline-block;
+		}
+
+#botones ul li p:hover{
+      color: #00374C;
+  
+    }
+
+
+#indicacion1 p {
+    clear: left;
+    text-align: center;
+    color: #00374C;
+    font-family: century_gothic;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 32px;
+}	
+
+#indicacion2 p {
+    clear: left;
+    text-align: left;
+    color: #00374C;
+    font-family: century_gothic;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 43px;
+}	
+
+
+label {
+    display: block;
+    margin-top: 96px;
+    margin-left: 29px;
+    float: left;
+    font-family: century_gothic;
+    font-size: 1.2em;
+    color: #00374C;
+}
+
+input#documento{
+    padding-left: 10px;
+    float: left;
+    width: 180px;
+    height: 38px;
+    display: inline-block;
+    margin-top: 148px;
+    margin-left: -185px;
+    font-size: 1em;
+    font-family: century_gothic;
+    color: #00374C;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: 4px 3px 7px #D3D3D3;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+   
+/*
+input#boton{
+    clear:left;
+    background-color: #b38d3f;
+    margin-left: 417px;
+    border:0;
+    outline:0;
+    color: white;
+    padding: 5px 23px;
+    text-decoration: none;
+    font-family:century_gothic; 
+    display: block;
+    font-size: 1em;
+    -webkit-border-radius:5px;
+    -webkit-transition: background-color.25s;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    cursor: pointer;
+}
+
+input#boton:hover{
+    
+     background-color: #616166;
+   
+}
+*/
+
+.boton_buscar {
+    clear: left;
+    background-color: #00A8D4;
+    margin-left: 23px;
+    margin-top: 217px;
+    border: none;
+    outline: 0;
+    color: white;
+    padding: 18px 57px;
+    text-decoration: none;
+    font-family: century_gothic;
+    display: block;
+    font-size: 1.5em;
+    -webkit-border-radius: 5px;
+    -webkit-transition: background-color.25s;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+} 
+
+.boton_buscar:hover{
+     background-color: #616166;  
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    float: left;
+    margin-top: -259px;
+    margin-left: 313px;
+    /* float: right; */
+    /* background-color: aqua; */
+}  
+
+#video p {
+    clear: left;
+    text-align: center;
+    color: #FF0000;
+    font-family: century_gothic;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 32px;
+}	
+   
+#redes p {
+    clear: left;
+    font-family: century_gothic;
+    font-size: 12px;
+    text-align: right;
+    color: #00374C;
+    margin-top: -24px;
+}
+
+
+#redes ul li{
+    float:right;
+    display:block;
+    list-style: none;
+    width: 35px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+#redes ul li a img{
+    filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	-khtml-opacity: 0.5;
+}
+
+#redes ul li a img:hover{
+    filter:alpha(opacity=100);  
+	-moz-opacity: 1.0;  
+	opacity: 1.0;
+	-khtml-opacity: 1.0; 
+}
+
+#copy p { 
+    clear: left;
+    text-align: center;
+    color: #00374C;
+    font-family: century_gothic;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 0px;
+}	
