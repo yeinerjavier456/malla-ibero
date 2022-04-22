@@ -28,6 +28,7 @@ if ($_POST['var_idbanner']== ''){
  
 <?php
 
+
 	$user="root";
 	$pass="";
 	$server="localhost";
